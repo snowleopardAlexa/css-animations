@@ -1,0 +1,24 @@
+h2 {
+    font-size: 2rem;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(5);
+}
+
+@keyframes typing {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+      border-color: red;
+    }
+}
