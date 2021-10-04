@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.car {
+    width: 100px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode:  forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function: linear; --> it is mechanical, not smooth */
+}
+
+@keyframes move {
+    100% {
+        transform: translateX(700%);
+    }
+}

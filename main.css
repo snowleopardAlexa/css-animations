@@ -67,6 +67,8 @@ h2 {
     text-shadow: rgb(224, 214, 214);
     animation-name: scaleIn; /* call it from keyframes */
     animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 
 @keyframes scaleIn {
@@ -80,3 +82,5 @@ h2 {
         transform: scale(1);
     }
 }
+
+
